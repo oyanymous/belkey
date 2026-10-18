@@ -1,0 +1,7 @@
+# Machine-specific settings and local files
+before-install.xml
+*.log
+*.lnk
+.DS_Store
+Thumbs.db
+Desktop.ini
