@@ -14,5 +14,13 @@ LCtrl::LWin
 SC029::SC056
 SC056::SC029
 ; Right Option is native AltGr. Left Option remains Windows Alt (Alt+Tab).
+; Both Option keys type braces on the physical ( and ) keys.
+; AltGr includes Windows' synthetic left Ctrl; keep Shift layers native.
+<!SC006::SendText "{"
+<!SC00C::SendText "}"
+>!SC006::SendText "{"
+>!SC00C::SendText "}"
+<^>!SC006::SendText "{"
+<^>!SC00C::SendText "}"
 ; Ctrl+Alt+F12 exits this helper immediately.
 ^!F12::ExitApp

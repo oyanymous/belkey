@@ -13,6 +13,7 @@ A small Windows x64 configuration for the **Logitech MX Keys for Mac with Belgia
 | Left Control | Windows key |
 | Left Option | Alt |
 | Right Option | AltGr — symbols such as `{ } [ ]` and `€` |
+| Either Option + `(` / `)` | `{` / `}` |
 | Key below Esc | `<` / `>` |
 | Key beside left Shift | `@` / `#` |
 | Numeric keypad | Num Lock enabled when the helper starts |
